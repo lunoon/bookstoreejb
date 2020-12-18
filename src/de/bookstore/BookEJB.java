@@ -60,7 +60,7 @@ public class BookEJB {
 			
 			MessageProducer sender = sess.createProducer(queue);
 			TextMessage msg = sess.createTextMessage();
-			msg.setText("huhu");
+			msg.setText("Machico Chino;Miniature Garden of Twindle;Tokyopop");
 			sender.send(msg);
 			
 			sender.close();
